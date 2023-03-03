@@ -5,10 +5,16 @@ All serial communication from the Bluetooth adaptor or ESP is forwarded to the B
 All data from the BMS is forwarded to both the Bluetooth adaptor and ESP. Simple!
 
 
+
 ### Connections:
 The pin labeled RX on the bluetooth adaptor connects to PA3
+
 The pin labeled TX on the bluetooth adaptor connects to PA2
+
 The data pin next to the positive wire on the BMS connects to PA10
+
 The data pin next to the negative wire on the BMS connects to PA9
+
 The RX pin on the ESP connects to PB10
+
 The TX pin on the ESP connects to PB11
